@@ -1,0 +1,7 @@
+apply plugin: 'atunstall.server.gradleplugin'
+
+component {
+    id = 'atunstall.server.network'
+    name = 'Network'
+    needed = ['Core', 'IO']
+}
